@@ -14,3 +14,13 @@ if (close) {
         nav.classList.remove('active')
     })
 }
+
+
+// SINGLE PRODUCT PAGE JS
+
+let mainImg = document.querySelector("#main-img")
+let smallImg = document.querySelectorAll(".small-img")
+
+smallImg.forEach(img => img.onclick = () => mainImg.src = img.src)
+
+
