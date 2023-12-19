@@ -720,6 +720,82 @@ footer .copyright {
 /* SINGLE PRODUCT ENDS */
 
 
+/* BLOG PAGE STARTS */
+
+#page-header.blog-header {
+    background-image: url(img/banner/b19.jpg);
+}
+
+#blog {
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+
+    /* justify-content: space-between; */
+}
+
+#blog .blog-image {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog .blog-details {
+    width: 50%;
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+#blog .blog-details a::after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover {
+    color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+    background-color: #088178;
+}
+
+#blog .blog-box h1 {
+    position: absolute;
+    content: '';
+    top: -45px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -99999;
+}
+
+
+/* BLOG PAGE ENDS */
+
 /* MEDIA QUERIES STARTS */
 
 
@@ -939,6 +1015,13 @@ footer .copyright {
         width: 60%;
     }
 
+    #blog {
+        padding: 150px 50px 0 50px;
+    }
+
+    #blog .blog-box h1 {
+        top: -35px;
+    }
 
 }
 
@@ -1032,6 +1115,32 @@ footer .copyright {
         display: inline;
         padding: 13px;
         margin-right: 10px;
+    }
+
+    #blog {
+        padding: 150px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    
+    #blog .blog-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #blog .blog-box h1 {
+        top: -40px;
+        left: 50px;
     }
 
 }
