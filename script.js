@@ -16,6 +16,9 @@ if (close) {
 }
 
 
+// NAV BAR ACTIVE CLASS ADD AND REMOVE
+
+
 // SINGLE PRODUCT PAGE JS
 
 let mainImg = document.querySelector("#main-img")
