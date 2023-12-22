@@ -27,3 +27,7 @@ let smallImg = document.querySelectorAll(".small-img")
 smallImg.forEach(img => img.onclick = () => mainImg.src = img.src)
 
 
+
+for (let i = 1; i <= 20; i++) {
+    console.log(String.fromCharCode(i))
+}
