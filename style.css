@@ -381,7 +381,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    text-align: center;
+    text-align: left;
     background-image: url(img/banner/b17.jpg);
     /* min-width: 700px; */
     min-width: 580px;
@@ -1196,6 +1196,10 @@ footer .copyright {
 
 @media all and (max-width:899px) {
 
+    #navbar li {
+        padding: 0 15px;
+    }
+
     #productdetails .single-pro-image {
         width: 50%;
     }
@@ -1258,11 +1262,11 @@ footer .copyright {
     }
 
     #newsletter .form {
-        width: 50%;
+        width: 70%;
     }
 
     #newsletter input {
-        height: 30px;
+        height: 50px;
         font-size: 12px;
     }
 
@@ -1338,6 +1342,8 @@ footer .copyright {
         /* transition: 0.3s; */
     }
 
+
+
     #close:hover {
         color: #088178;
     }
@@ -1379,6 +1385,7 @@ footer .copyright {
         width: 100%;
         flex-direction: column;
     }
+
 
     #contact-details .details {
         width: 80%;
@@ -1440,7 +1447,7 @@ footer .copyright {
     }
 
     #banner3 h2 {
-        font-size: 21px;
+        font-size: 18px;
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -1565,6 +1572,10 @@ footer .copyright {
 
     #cart-add #coupon,
     #subtotal {
+        width: 100%;
+    }
+
+    #newsletter .form{
         width: 100%;
     }
 
